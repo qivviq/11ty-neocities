@@ -1,0 +1,11 @@
+# dependencies installed by npm
+
+node_modules
+
+# build artefacts
+
+dist/
+
+# a relic of the past
+the_old_world/
+TH3_0LD_W0|2L|)/
