@@ -68,7 +68,7 @@ main {
     border-color: aquamarine;
 }
 
-p, a{
+p, a, ul{
     font-family: "Livvic", sans-serif;
     font-style: normal;
 }
@@ -90,11 +90,19 @@ body {
     margin: 0px 25px;
 }
 
-.self_promo {
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+
+}
+
+footer {
+    margin-top: auto;
     background-color: aliceblue;
-    bottom: 0;
-    left:0;
-    min-width: 100%;
+    bottom: 0px;
+    left:0px;
+    width: 100%;
     text-align: center;
 }
 
@@ -111,6 +119,15 @@ li > a:hover {
     color: rgb(56, 60, 65);
 }
 
-.list_of_buttons {
+.centered {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.centered_text {
+    text-align: center;
+}
 
+.navbar {
+    border: 0.5em dotted;
+    margin: auto 400px;
 }
